@@ -20,6 +20,6 @@ Le projet comporte une commande console : `app:import-articles` qui possède plu
 
 Une authentification par JWT est en place sur les routes /api/xxx, il faut donc récupérer un jeton JWT via /api/login_check en fournissant dans le body un json contenant "username" et "password"
 
-Les tests unitaires ne sont pas fonctionnels en l'état, les utilisateurs étant créés aléatoirement, il faut changer le username dans le fichier tests/articleTest.php.
+⚠️ Les tests unitaires ne sont pas fonctionnels en l'état, les utilisateurs étant créés aléatoirement, il faut changer le username dans le fichier tests/articleTest.php.
 
 Enfin, un controller `ExempleController` présente différentes routes d'exemple, comme pour présenter la serialisation.
